@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <style>
+            *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+    width: 1500px;
+}
+.h{
+    text-align: center;
+}
+h2{
+    color: bisque;
+    
+}
+.h:hover{
+    background-color:white ;
+}
+
+input{
+    height: 40px;
+    width: 45px;
+   margin: 5px;
+}
+.tab{
+    position: relative;
+    left: 42%;
+    top: 150px;
+   
+}
+.tab table{
+    
+    background-color: rgb(49, 45, 45);
+    border-radius: 10px;
+    padding: 10px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 10px 10px 8px #0d2642;
+      
+      
+    
+}
+
+
+        </style> -->
+    
+            <!-- <script src="proj.js">
+                
+function anm() {
+    let x = document.getElementById("tb").value = "";
+    
+}
+function see(x) {
+    document.getElementById("tb").value += x;
+}
+function solve() {
+    let z = document.getElementById("tb").value;
+    let y = eval(z);
+    document.getElementById("tb").value = y;
+   
+}
+function fun(){
+    setTimeout(function(){alert("Welcome"),6000});
+}
+       
+            </script> -->
+        <title>calculator</title>
+        <link rel="stylesheet" href="Main Project1.css">
+        <link rel="" href="Main project1.js">
+        <script src="Main project1.js"></script>
+    </head>
+    <body onload="fun()">
+        <br>
+        <br>
+       <div class="h">
+           <h1>CASIO</h1>
+          
+       </div>
+       <div class="tab" style="width: 889px;">
+           <table>
+               <tr >
+                   <td colspan="3"><h2 style="color: bisque;">Casio<br><h4 style="color: bisque;">S-V.P.A.M.</h4></h2></td>
+                   <td><h4><i style="color: antiquewhite;">Fx 123</i></h4></td>
+               </tr>
+               <tr>
+               <td colspan="3"><input type="text" id="tb" style="width: 150px;" /></td>
+               <td ><input type="button" value="C"   onclick="anm()" style="margin-left: -61;background-color: rgb(66, 6, 66);color:gold"></td>
+            </tr>
+           <div id="an">
+            <tr>
+                <td ><input type="button" value="1"   onclick="see('1')" ></td>
+                <td ><input type="button" value="2"   onclick="see('2')" ></td>
+                <td ><input type="button" value="3"   onclick="see('3')" ></td>
+                <td ><input type="button" value="/"   onclick="see('/')" ></td>
+            </tr>
+            <tr>
+                <td ><input type="button" value="4"   onclick="see('4')" ></td>
+                <td ><input type="button" value="5"   onclick="see('5')" ></td>
+                <td ><input type="button" value="6"   onclick="see('6')" ></td>
+                <td ><input type="button" value="-"   onclick="see('-')" ></td>
+            </tr>
+            <tr>
+                <td ><input type="button" value="7"   onclick="see('7')" ></td>
+                <td ><input type="button" value="8"   onclick="see('8')" ></td>
+                <td ><input type="button" value="9"   onclick="see('9')" ></td>
+                <td ><input type="button" value="+"   onclick="see('+')" ></td>
+            </tr>
+            <tr>
+                <td ><input type="button" value="."   onclick="see('.')" ></td>
+                <td ><input type="button" value="0"   onclick="see('0')" ></td>
+                <td ><input type="button" value="="   onclick="solve()" ></td>
+                <td ><input type="button" value="*"   onclick="see('*')" ></td>
+            </tr>
+        </div>
+           </table>
+       </div>
+    </body>
+        
+ 
+</html>
